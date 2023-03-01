@@ -1,0 +1,328 @@
+:root {
+    --cor-de-fundo:#e9e5e5;
+    --fundo-branco:#f2f2f2;
+    --fundo-roxo: linear-gradient( hsl(293, 100%, 45%),hsl(264, 100%, 61%));
+    --cinza:hsl(271, 36%, 24%)
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {    
+    display: flex;
+}
+
+.quadro-box{
+    display: flex;
+}
+
+.box {
+    background-image: var(--fundo-roxo);
+    display: flex;
+    width: 29em;
+    height: 36em;
+    border-radius: 0 0 14rem 16rem;
+    margin-left: -5rem;
+}
+
+.caixa{
+    background-color: #f2f2f2;
+    width: 15.5rem;
+    height: 29rem;
+    margin-top: 5.5rem;
+    margin-left: -4rem;
+    border-radius: 1.2rem;
+    box-shadow: 10px 15px 100px var(--cinza);
+}
+
+.caixa-secundaria{
+    background-color: var(--cor-de-fundo);
+    width: 14.5rem;
+    height: 27.9em;
+    margin: 0.625rem auto;
+    border-radius: 1.2rem;
+}
+
+.caixa-cor-fundo{
+    display: flex;
+    background-image: var(--fundo-roxo);
+    width: 14.5rem;
+    height: 4rem;
+    margin: 0.625rem auto;
+    border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.caixa-cor-branco{
+    background-color: var(--fundo-branco);
+    width: 7rem;
+    height: 1rem;
+    margin: 0 auto;
+    border-radius: 0 0 0.5rem 0.5rem ;
+}
+
+.icon-seta{
+    position: absolute;
+    margin-top: 1.7rem;
+    margin-left: -2.6rem;
+    padding: 0.25rem;
+    box-shadow: 2px -2px 1px var(--fundo-branco) inset;
+    border: solid transparent;
+    transform: rotate(45deg);
+}
+
+.img {
+    background-color: var(--fundo-branco);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.8rem;
+    height: 1.8rem;    
+    margin-top: 1.3rem;
+    margin-left: -1.5rem;
+    border-radius: 2rem;
+}
+
+.img-foto{
+    width: 1.6em;
+    height: 1.6rem; 
+    border-radius: 2.1rem;
+}
+
+.texto-principal{
+    color: var(--fundo-branco);
+    font-size: 10px;
+    font-weight: 700;
+    margin: -25px 15px;
+}
+
+.texto-secundario {
+    color: var(--cor-de-fundo);
+    font-size: 7px;
+    font-weight: 700;
+    margin: 30px 15px;
+}
+.pontos{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin-top: -2.5rem;
+    margin-left: 8.6rem;
+    opacity: 0.6;
+}
+
+.caixa-texto{
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo-branco);
+    width: 9.5rem;
+    height: 2.1rem;
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
+    border-radius: 0.9rem 0.9rem 0.9rem 0;
+}
+
+.primeiro-texto{
+    color: hsl(264, 100%, 61%);
+    font-size: 7px;
+    font-weight: 700;
+    margin-left: 10px;
+    line-height: 0.6rem;
+}
+
+.caixa-img{ 
+    margin-left: 4rem;    
+    margin-top: 0.5rem;
+
+}
+
+.img-caes{
+    border-radius: 1rem;
+    width: 3rem;    
+}
+
+.caixa-texto-secundario{
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo-branco);
+    width: 9.5rem;
+    height: 2rem;
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
+    border-radius: 0.9rem 0.9rem 0 0.9rem;
+}
+
+.caixa-texto-secundario-2 {
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo-branco);
+    width: 6.5rem;
+    height: 1.3rem;
+    margin-left: 3.55rem;
+    margin-top: 0.5rem;
+    border-radius: 0.9rem 0.9rem 0 0.9rem;
+}
+
+.caixa-roxo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    background-image: var(--fundo-roxo);
+    width: 11rem;
+    height: 2rem;
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
+    border-radius: 0.9rem 0.9rem 0.9rem 0;
+}
+
+.circulo {
+    width: 10px;
+    height: 10px;
+    margin-left: 0.6rem;
+    border-radius: 0.9rem;
+    box-shadow:  1px 1px 10px white;
+}
+
+.texto-roxo{
+    color: var(--fundo-branco);
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.texto-valor {
+    color: var(--fundo-branco);
+    font-weight: 700;
+}
+
+.mensagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 8.9px;
+}
+
+.message {
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 87%;     
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 11.5rem;
+    margin-top: 0.2rem;
+    background-color: var(--cinza);
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;    
+}
+
+.icon-play {
+    position: absolute;
+    padding: 4px;
+    box-shadow: 2px -2px 1px var(--fundo-branco) inset;
+    border: solid transparent;
+    transform: rotate(225deg);
+}
+
+.caixa-descricao {
+    margin-left: 7rem;  
+}
+
+.principal-texto{
+    color: var(--cinza);
+    font-size: 2em;
+    font-weight: 500;      
+    margin-top: 15rem;
+}
+
+.secundario-texto{
+    margin-top: 1.4rem;    
+    line-height: 1.6rem;
+    width: 24rem;
+    height: 5rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        background-color: red;
+        margin-left: -14rem;        
+        height: em;
+    }
+
+    .caixa{        
+        margin-left: -7.5rem; 
+        background-color: #f2f2f2;
+        width: 23.5rem;
+        height: 45rem;
+    }
+    
+    .caixa-secundaria{
+        width: 21.5rem;
+        height: 43.2em;
+    }
+    
+    .caixa-cor-fundo{
+        width: 21.5rem;
+        height: 5rem;
+    }
+    
+    .caixa-cor-branco{
+        width: 13.5rem;
+        height: 1.6rem;        
+        border-radius: 0 0 0.7rem 0.7rem ;
+    }  
+
+    
+    .caixa-descricao {
+        margin-top: -10rem;
+    }
+
+    .principal-texto{
+        font-size: 3.5em;    
+        width: 19em;
+    }
+    
+    .secundario-texto{
+        font-size: 1.6rem;
+        width: 19em;
+        text-align: center;
+        line-height: 3rem;
+        opacity: 0.4;
+    }
+    
+}
+
+@media screen and (max-width:715px) {
+    .box {
+        width: 20em;
+        height: 36em;
+        border-radius: 0 0 14rem 16rem;
+        margin-left: -4rem;
+    }
+    
+    
+}
+
+@media screen and (max-width:450px) {
+    .box {
+        width: 15em;
+        height: 36em;
+        border-radius: 0 0 14rem 16rem;
+        margin-left: -4rem;
+    }
+    
+    
+}
